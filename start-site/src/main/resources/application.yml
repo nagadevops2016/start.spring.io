@@ -178,7 +178,7 @@ initializr:
         releasesEnabled: false
         snapshotsEnabled: true
   dependencies:
-    - name: Developer Tools
+    - name: Ramsharath
       content:
         - name: Spring Native [Experimental]
           id: native
@@ -208,7 +208,7 @@ initializr:
             - rel: reference
               href: https://docs.spring.io/spring-native/docs/current/reference/htmlsingle/
               description: Spring Native Reference Guide
-        - name: Spring Boot DevTools
+        - name: citi-dep-1
           id: devtools
           groupId: org.springframework.boot
           artifactId: spring-boot-devtools
@@ -218,7 +218,7 @@ initializr:
           links:
             - rel: reference
               href: https://docs.spring.io/spring-boot/docs/{bootVersion}/reference/htmlsingle/#using-boot-devtools
-        - name: Lombok
+        - name: Lombok-citi-dep
           id: lombok
           groupId: org.projectlombok
           artifactId: lombok
@@ -227,7 +227,7 @@ initializr:
           facets:
             - native
           starter: false
-        - name: Spring Configuration Processor
+        - name: citi-dep-2
           id: configuration-processor
           groupId: org.springframework.boot
           artifactId: spring-boot-configuration-processor
